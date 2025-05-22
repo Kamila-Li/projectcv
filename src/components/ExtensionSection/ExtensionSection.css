@@ -49,10 +49,10 @@
 }
 
 .card-button {
-  background-color: #5368df; /* синий фон */
-  color: white; /* белый текст */
+  background-color: #5368df; 
+  color: white; 
   padding: 12px 16px;
-  border: 2px solid #5368df; /* синие границы */
+  border: 2px solid #5368df; 
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
@@ -60,9 +60,9 @@
 }
 
 .card-button:hover {
-  background-color: white; /* фон при наведении */
-  color: #5368df; /* текст при наведении */
-  border-color: #5368df; /* граница при наведении */
+  background-color: white; 
+  color: #5368df; 
+  border-color: #5368df; 
 }
 
 
