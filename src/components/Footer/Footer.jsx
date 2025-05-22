@@ -1,7 +1,8 @@
 import React from 'react';
 import './Footer.css'; // Подключаем CSS файл
 import logo from '../../assets/image/logo-bookmark.footer.svg';
-
+import Twitter from '../../assets/image/icon-twitter.svg';
+import Facebook from '../../assets/image/icon-facebook.svg';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -33,10 +34,10 @@ const Footer = () => {
           
           <div className="footer-social">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/image/icon-facebook.svg" alt="Facebook" className="social-icon" />
+              <img src={Facebook} alt="Facebook" className="social-icon" />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/image/icon-twitter.svg" alt="Twitter" className="social-icon" />
+              <img src={Twitter} alt="Twitter" className="social-icon" />
             </a>
           </div>
         </div>
